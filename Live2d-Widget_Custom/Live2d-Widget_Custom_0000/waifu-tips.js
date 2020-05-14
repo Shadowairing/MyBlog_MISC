@@ -32,7 +32,7 @@ function loadWidget(waifuPath, apiPath) {
 				window.ASTEROIDSPLAYERS.push(new Asteroids());
 			} else {
 				var script = document.createElement("script");
-				script.src = "https://cdn.jsdelivr.net/gh/Shadowairing/MyBlog_MISC/Live2d-Widget_Custom_000/live2d_CDN/asteroids.js";
+				script.src = "https://cdn.jsdelivr.net/gh/Shadowairing/MyBlog_MISC/Live2d-Widget_Custom/Live2d-Widget_Custom_0000/live2d_CDN/asteroids.js";
 				document.head.appendChild(script);
 			}
 		});
